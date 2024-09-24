@@ -69,7 +69,7 @@ require("./plugins/" + plugin);
 console.log('Mihiranga-MD All Plugins installed successful ✅')
 console.log('Mihiranga-MD Whatsapp User Bot connected to whatsapp ✅')
 
-let up = `Mihiranga-MD Whatsapp Bot connected successful ✅\n\nPREFIX: ${prefix}`;
+let up = `Mihiranga-MD Whatsapp Bot connected successful ✅\n\nPREFIX: ${prefix}\n\n Develope by : Mihiranga Kalhara \n\n Thank's For Using Mihiranga-MD`;
 
 conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://i.ibb.co/VQsjjyb/Free.png` }, caption: up })
 
